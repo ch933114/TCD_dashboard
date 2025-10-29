@@ -14,11 +14,11 @@ export const useChatStore = defineStore('chat', () => {
         { id: 3, text: '站臺資料主題類型' },
       ],
     },
-    {
-      id: 2,
-      role: 'user',
-      content: '我想詢問關於臺北城市儀表板的黑客松競賽資訊',
-    },
+    // {
+    //   id: 2,
+    //   role: 'user',
+    //   content: '我想詢問關於臺北城市儀表板的黑客松競賽資訊',
+    // },
   ])
 
   const addChatData = (newChatData) => {
